@@ -3,7 +3,7 @@ on: [ push ]
 jobs:
   test:
     name: test
-    runs-on: self-hosted
+    runs-on: ubuntu
 
     steps:
       - name: checkout
