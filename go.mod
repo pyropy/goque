@@ -1,4 +1,4 @@
-module github.com/beeker1121/goque
+module github.com/pyropy/goque
 
 go 1.13
 

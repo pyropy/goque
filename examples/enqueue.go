@@ -1,13 +1,13 @@
-package goque_test
+package main
 
 import (
 	"fmt"
 
-	"github.com/beeker1121/goque"
+	"github.com/pyropy/goque"
 )
 
-// ExampleObject demonstrates enqueuing a struct object.
-func Example_object() {
+// demonstrates enqueuing a struct object.
+func main() {
 	// Open/create a queue.
 	q, err := goque.OpenQueue("data_dir")
 	if err != nil {

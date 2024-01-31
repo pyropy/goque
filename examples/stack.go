@@ -1,13 +1,13 @@
-package goque_test
+package main
 
 import (
 	"fmt"
 
-	"github.com/beeker1121/goque"
+	"github.com/pyropy/goque"
 )
 
-// ExampleStack demonstrates the implementation of a Goque stack.
-func Example_stack() {
+// demonstrates the implementation of a Goque stack.
+func main() {
 	// Open/create a stack.
 	s, err := goque.OpenStack("data_dir")
 	if err != nil {
